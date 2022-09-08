@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server":"nodemon server"
+    "server": "nodemon server"
   },
   "author": "Silas Crosby",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.1211.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.7",
     "express": "^4.18.1",
